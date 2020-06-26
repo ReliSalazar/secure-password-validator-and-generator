@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+:root {
+  --background: #1a1a1a;
+  --dark: #333;
+  --light: #eee;
+  --red: #bd3537;
+  --blue: #35bdbb;
+}
+
+body {
+    font-size: 20px;
+    font-family: "Space Mono", "Courier New", Courier, monospace;
+    color: var(--light);
+    background-color: var(--background);
+}
+
+.title {
+    color: var(--light);
+}
+
+#message {
+    font-size: 1em;
+    color: var(--light);
+}
+
+body h2 {
+    margin-top: 3em;
+}
+
+.flex-container {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.flex-container > div {
+    text-align: center;
+    background-color: var(--dark);
+    width: 90%;
+    height: 100%;
+}
+
+#password {
+    margin-top: 2em;
+    text-align: center;
+    height: 2em;
+    width: 50%;
+}
+
+.btn {
+    border: 1px solid var(--light);
+    padding: 15px 30px;
+    background-color: transparent;
+    color: var(--light);
+    transition: 0.5s;
+    margin: 2em;
+    margin-top: 0;
+}
+
+.btn:hover {
+    border: 1px solid var(--red);
+    background-color: var(--red);
+    cursor: pointer;
+}

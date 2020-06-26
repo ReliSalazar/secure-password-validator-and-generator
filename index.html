@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Validator and Generator</title>
+  <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="flex-container">
+    <div>
+      <h2 class="title">Password is: <span id="secure"></span></h2>
+    </div>
+    <div>
+      <input type="password" name="password" id="password" required>
+    </div>
+    <div><p id="message"></p></div>
+    <div>
+      <button type="submit" id="validate" class="btn">validate</button>
+      <button type="submit" id="generate" class="btn">generate</button>
+      <button type="button" id="copy" class="btn">copy</button>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+
+</html>
